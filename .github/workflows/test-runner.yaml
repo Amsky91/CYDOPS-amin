@@ -3,17 +3,17 @@ name: Test Runner
 on:
   push:
     branches:
-	- main
+      - main
 jobs:
   test-runner:
     runs-on:
       - self-hosted
       - linux
       - x64
-    steps: 
+    steps:
       - name: Verification
         run: echo "Test de fonctionnement du Runner !"
-      
+
       - name: tests de commandes
         run: |
           echo "Runner OK"
