@@ -13,10 +13,7 @@ jobs:
     steps:
       - name: Récupération du code
         uses: actions/checkout@v3
-<<<<<<< HEAD
-=======
 
->>>>>>> 5fe4f79 (Ajout du fichier test-runner.yam #1)
       - name: Vérification syntaxe HTML
         uses: Cyb3r-Jak3/html5validator-action@v7.2.0
         with:
