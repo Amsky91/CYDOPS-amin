@@ -2,10 +2,10 @@ name: Publication Web
 
 on:
 
-push:
-  branches: [ LABOS ]
-  paths:
-    - index.html
+  push:
+    branches: [ LABOS ]
+    paths:
+      - index.html
 
 jobs:
   deploy:
